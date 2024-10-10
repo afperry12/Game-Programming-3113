@@ -17,13 +17,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		55F0E72A2C8D6B050002EEDB /* CopyFiles */ = {
+		55F0E72A2C8D6B050002EEDB /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 6;
 			files = (
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -136,7 +137,7 @@
 			buildPhases = (
 				55F0E7282C8D6B050002EEDB /* Sources */,
 				55F0E7292C8D6B050002EEDB /* Frameworks */,
-				55F0E72A2C8D6B050002EEDB /* CopyFiles */,
+				55F0E72A2C8D6B050002EEDB /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -174,7 +175,7 @@
 				Base,
 			);
 			mainGroup = 55F0E7232C8D6B050002EEDB;
-			preferredProjectObjectVersion = 56;
+			preferredProjectObjectVersion = 55;
 			productRefGroup = 55F0E72D2C8D6B050002EEDB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
