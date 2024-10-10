@@ -54,17 +54,6 @@
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		552FA7CD2CADEFCF0076044B /* Exceptions for "textures" folder in "Compile Sources" phase from "Pong Clone" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 55B287EC2CADE1D700D73D71 /* Sources */;
-			membershipExceptions = (
-				Patrick.png,
-				Spongebob1.PNG,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		55B2897C2CADE96300D73D71 /* glm */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -81,9 +70,6 @@
 		};
 		55B289902CADE9CB00D73D71 /* textures */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				552FA7CD2CADEFCF0076044B /* Exceptions for "textures" folder in "Compile Sources" phase from "Pong Clone" target */,
-			);
 			path = textures;
 			sourceTree = "<group>";
 		};
