@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -50,7 +50,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		552FA7D12CADF2C70076044B /* Exceptions for "glm" folder in "Pong Clone" target */ = {
+		552FA7D12CADF2C70076044B /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				detail/glm.cpp,
@@ -60,29 +60,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		55B2897C2CADE96300D73D71 /* glm */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				552FA7D12CADF2C70076044B /* Exceptions for "glm" folder in "Pong Clone" target */,
-			);
-			path = glm;
-			sourceTree = "<group>";
-		};
-		55B289832CADE96300D73D71 /* shaders */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = shaders;
-			sourceTree = "<group>";
-		};
-		55B289902CADE9CB00D73D71 /* textures */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = textures;
-			sourceTree = "<group>";
-		};
-		55F352F92CBB119F00D22BE4 /* fonts */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = fonts;
-			sourceTree = "<group>";
-		};
+		55B2897C2CADE96300D73D71 /* glm */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (552FA7D12CADF2C70076044B /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = glm; sourceTree = "<group>"; };
+		55B289832CADE96300D73D71 /* shaders */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = shaders; sourceTree = "<group>"; };
+		55B289902CADE9CB00D73D71 /* textures */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = textures; sourceTree = "<group>"; };
+		55F352F92CBB119F00D22BE4 /* fonts */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = fonts; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +176,7 @@
 				};
 			};
 			buildConfigurationList = 55B287EB2CADE1D700D73D71 /* Build configuration list for PBXProject "Pong Clone" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -203,7 +185,6 @@
 			);
 			mainGroup = 55B287E72CADE1D700D73D71;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 55B287F12CADE1D700D73D71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
