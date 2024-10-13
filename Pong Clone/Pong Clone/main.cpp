@@ -426,7 +426,7 @@ void process_input() {
                 if (event.key.keysym.sym == SDLK_e) {
                     g_spongebob_speed = EASY_SPEED;
                     g_patrick_speed = EASY_SPEED;
-                    
+                    g_app_status = RUNNING;
                 } else if (event.key.keysym.sym == SDLK_m) {
                     g_spongebob_speed = MEDIUM_SPEED;
                     g_patrick_speed = MEDIUM_SPEED;
@@ -550,12 +550,20 @@ void update() {
                 patrick_score++;
                 LOG("Patrick's score: " << patrick_score);
                 jellyfishToErase.push_back(i);  // Mark this jellyfish for removal
+                // Just in case for requirement 4
+                if (patrick_score >= 100) {
+                    g_app_status = ENDSCREEN;
+                }
             }
             else if (jelly.position.x >= RIGHT_BORDER - (jelly.scale.x / 2.0f)) {
                 // SpongeBob scores
                 spongebob_score++;
                 LOG("SpongeBob's score: " << spongebob_score);
                 jellyfishToErase.push_back(i);  // Mark this jellyfish for removal
+                // Just in case for requirement 4
+                if (spongebob_score >= 100) {
+                    g_app_status = ENDSCREEN;
+                }
             }
             
             // Handle jellyfish bouncing off SpongeBob and Patrick
