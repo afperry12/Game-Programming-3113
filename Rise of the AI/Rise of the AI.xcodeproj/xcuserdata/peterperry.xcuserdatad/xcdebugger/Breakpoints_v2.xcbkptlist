@@ -14,9 +14,9 @@
             filePath = "Rise of the AI/WinScreen.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "WinScreen::update(delta_time)"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "WinScreen::render(program)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
