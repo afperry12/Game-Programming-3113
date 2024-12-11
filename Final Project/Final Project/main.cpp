@@ -35,7 +35,7 @@
 #include "LevelA.h"
 #include "MenuScreen.h"
 //#include "LevelB.h"
-#include "Effects.h"
+//#include "Effects.h"
 #include "EndScreen.h"
 #include "WinScreen.h"
 
