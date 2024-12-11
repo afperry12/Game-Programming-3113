@@ -47,27 +47,11 @@ Welcome to the **The Maze Trials**, a challenging and action-packed adventure wh
 
 ---
 
-## 💻 **How to Play**
-
-1. **Download and Run the Game:**
-   - Clone the repository:
-     ```bash
-     git clone <repository-url>
-     ```
-   - Navigate to the game directory:
-     ```bash
-     cd "Final Project"
-     ```
-   - Compile and run the game (adjust for your environment):
-     ```bash
-     ./game
-     ```
-
-2. **Start the Adventure:**
+1. **Start the Adventure:**
    - Use the arrow keys to navigate through the maze.
    - Press `P` to shoot enemies.
 
-3. **Survive and Strategize:**
+2. **Survive and Strategize:**
    - Pay attention to enemy patterns and adapt your strategy.
    - Watch out for the teleporting enemy!
 
